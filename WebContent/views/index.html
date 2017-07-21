@@ -16,7 +16,9 @@
   <div class="container-fluid">
     <div class="text-center">
     <h1>Click below button to begin a Quiz!</h1>
-    <input type="submit" class="btn btn-primary" value="Start Quiz" formaction="views/quiz.html">
+      <form action="/views/quiz.html" method="get">
+        <input type="submit" class="btn btn-primary" value="Start Quiz">
+      </form>
     </div>
   </div>
 </body>
